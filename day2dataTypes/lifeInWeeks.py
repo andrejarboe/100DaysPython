@@ -12,7 +12,6 @@ age = input("What is your current age? ")
 #Write your code below this line 👇
 age = int(age)
 
-
 days = 365
 weeks = 52
 months = 12
@@ -22,4 +21,6 @@ days_left = years_left * days
 weeks_left = years_left * weeks
 months_left = years_left * months
 
-print(f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left")
+message = f"You have {days_left} days, {weeks_left} weeks, and {months_left} months left"
+
+print(message)
