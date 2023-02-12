@@ -18,3 +18,11 @@ if height >= 120:
 else:
     print("Sorry, you need to grow taller before you can ride.")
 
+# modulo %
+# 7 % 2
+# 2 + 2 +2 + 1
+# = 1
+# 7 % 4
+# 4 + 3 
+# = 3
+print(7 % 4)
