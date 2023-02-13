@@ -25,4 +25,29 @@ else:
 # 7 % 4
 # 4 + 3 
 # = 3
-print(7 % 4)
+print(7 % 4) # 3
+
+
+height = int(input("how tall are you? "))
+bill = 0
+
+if height >= 120:
+    print("can ride")
+    age =int(input("how old are you? "))
+    if age < 12:
+        bill = 5
+        print("Child tickets are $5.")
+    elif age <= 18:
+        print("youth tickets are $7.")
+    else:
+        bill = 12
+        print("Adult tickets are $12")
+    
+    wants_photo = input("do you want a photo? Y or N. ")
+    if wants_photo == "Y" or wants_photo == "y":
+        bill +=3 
+
+    print(f"Your final bill is ${bill}")
+
+else:
+    print("you can not ride")
