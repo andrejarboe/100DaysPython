@@ -50,4 +50,7 @@ elif size == "L" or size == "l":
 if extra_cheese == "Y" or extra_cheese == "y":
     bill += 1
 
+# refactor:
+   
+
 print(f"Your final bill is: ${bill}.")
